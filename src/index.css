@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    gap: 50px;
+}
+h3 {
+    color:d;
+    
+}
+
+div#card-body {
+    background-color: #cbe7e9;
+    height:320px;
+    width: 250px;
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+    border: 1px solid transparent;
+    border-top:2px solid #1bb2bd;
+    border-left:2px solid #1bb2bd; 
+}
+
+
+
+
+div#card-body:hover {
+        box-shadow: 0px 0px 10px 1px #1bb2bd;
+        transition: all 0.5s ease-in-out;
+        border:transparent;
+    }
+
+
+    p{
+      font-size:15px;
+      color:rgb(86, 92, 92)
+    }
+
+    .Hero {
+    display: flex;
+    gap: 50px;
+}
+
+div#card-body h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1bb2bd;
+    color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
